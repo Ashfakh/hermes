@@ -21,11 +21,6 @@ public class EducationBot extends BaseBot {
         return "Educator";
     }
 
-    @Override
-    public String getBotHelp() {
-        return null;
-    }
-
 
     public String getPersona() {
         return "You are Educator, an academic instructor who answers any questions asked by\n" +

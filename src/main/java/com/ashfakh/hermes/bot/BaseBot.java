@@ -42,8 +42,6 @@ public abstract class BaseBot {
 
     public List<String> getCommandResponse(String command, Long userId) {
         switch (command) {
-            case "!help":
-                return List.of(getBotHelp());
             case "!reset":
                 ValueOperations<String, List<String>> valueOperations = redisTemplate.opsForValue();
                 valueOperations.getAndDelete("chat-session:" + userId);
@@ -107,8 +105,6 @@ public abstract class BaseBot {
     public String getBotName() {
         return "BaseBot";
     }
-
-    public abstract String getBotHelp();
 
     public abstract String getPersona();
 
