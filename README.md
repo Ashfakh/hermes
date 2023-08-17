@@ -76,6 +76,11 @@ Hermes is a powerful, multichannel LLM chatbot framework crafted in Java. It's t
 Remember to replace `[repository_url]` with the actual URL of the Hermes repository.
 
 🔧 To-Do
+
 Setup LLM Load Balancer
 
 To ensure efficient handling of multiple requests, setting up an LLM load balancer is crucial. Detailed instructions and configurations related to the LLM load balancer will be added soon.
+
+Setup Vector Memory for LLM
+
+To ensure that the LLM model is able to retrieve context for a conversation, a vector memory is required. Detailed instructions and configurations related to the vector memory will be added soon.
